@@ -1,0 +1,36 @@
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+blockquote {
+    border-left: rgb(221, 221, 221);
+    border-left: 2px solid gray;
+    margin-bottom: 4em;
+}
+
+blockquote p {
+    padding-left: 2em;
+    
+}
+
+cite {
+    position: absolute;
+    right: 0px;
+    padding-right: 2em;
+    font-style: italic;
+}
+
+th {
+    background-color: lightblue;
+}
+
+th, td {
+    width: 144px;
+    height: 32px;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+}
