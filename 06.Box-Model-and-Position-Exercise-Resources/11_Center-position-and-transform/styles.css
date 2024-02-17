@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: 16px/1.5 Helvetica, serif
+}
+
+.viewport {
+    height: 100vh;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 24%, rgba(100, 65, 202, 1) 39%, rgba(62, 73, 229, 1) 56%, rgba(29, 80, 253, 1) 74%, rgba(45, 124, 185, 1) 100%);
+}
+
+
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 2px;
+    inset: 0;
+    box-shadow: 0 0 5em 0.5em rgb(0, 0, 0, 0.7) inset;
+}
+
+.img::before {
+    display: block;
+    position: absolute;
+    content: '';
+    height: 60%;
+    inset: 0;
+    box-shadow: 0 0 5em 0.5em rgb(0, 0, 0, 0.7) inset;
+    opacity: 1;
+    transition: opacity 0.3s ease-in;
+}
+
+.img:hover::before {
+    opacity: 0.5;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    max-width: 450px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #7e7d7d;
+    border-radius: 5px;
+    box-shadow: 0 0 2em 0.5em rgb(0, 0, 0, 0.3);
+}
+
+.info-container {
+    position: relative;
+    margin: 1em;
+    padding: 1em;
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+}
+
+h3 {
+    font: 1.5em/1.2 Georgia, serif;
+    font-weight: 600;
+}
+
+.info-container p {
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+}
+
+
+.info-container a {
+    display: block;
+    background-color: rgb(0, 153, 0);
+    position: absolute;
+    right: 1em;
+    padding: 0.5em;
+    border-radius: 4px;
+    text-decoration: none;
+    color: aliceblue;
+    transition: 0.3s ease-in;
+}
+.info-container a:hover{
+    background-color: rgb(54, 99, 10);
+    transition: 0.3s ease-in;
+}
