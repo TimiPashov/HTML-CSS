@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16/1.5 Helvetica, sans-serif
+}
+
+
+
+.viewport {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+    margin: 2em auto;
+    gap: 2em;
+}
+
+.viewport  article {
+    flex: 0 0 200px
+}
+
+h2 {
+    margin-bottom: 1em;
+}

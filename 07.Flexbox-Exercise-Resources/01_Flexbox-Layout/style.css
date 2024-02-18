@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   padding: 2em;
+   background-color: #eee;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1em;
+}
+
+body>* {
+    background: #fff;
+    padding: 1em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.3);
+    border-radius: 0.3em;
+    text-transform: uppercase;
+}
+
+body >header, body>footer {
+    flex: 1 0 100%;
+}
+
+body >main, body >aside {
+    min-height: 200px;
+}
+
+body>main {
+    flex: 1 0 60%;
+
+}
+
+body > aside {
+    flex: 1 1 auto;
+}
+
+
