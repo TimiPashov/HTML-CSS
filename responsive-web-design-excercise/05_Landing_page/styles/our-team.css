@@ -1,0 +1,18 @@
+.our-team {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 50%;
+}
+
+.our-team h1 {
+    flex: 0 1 100%;
+    text-align: center;
+    margin-bottom: 2em;
+    width: 50%;
+}
+

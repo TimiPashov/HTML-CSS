@@ -1,0 +1,25 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+@import url('reset.css');
+
+@import url('typography.css');
+
+@import url('header.css');
+
+@import url('main.css');
+
+@import url('need-website.css');
+
+@import url('our-team.css');
+
+@import url('sign-up.css');
+
+@import url('testimonials.css');
+
+@import url('footer.css');
+
+@import url('cards.css');
+
+body {
+    height: 100vh;
+}

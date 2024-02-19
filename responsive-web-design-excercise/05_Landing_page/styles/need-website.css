@@ -1,0 +1,9 @@
+.need-website {
+    width: 40%;
+    align-self: center;
+    margin-bottom: 7em;
+}
+
+.need-website i {
+    display: block;
+}

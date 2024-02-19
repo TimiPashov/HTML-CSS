@@ -1,0 +1,26 @@
+.testimonial-card {
+    display: flex;
+    border: 1px solid black;
+    width: 150px;
+    height: 200px;
+    font-size: 5px;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card-img {
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    border-radius: 50%;
+}
+
+.team-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+}
