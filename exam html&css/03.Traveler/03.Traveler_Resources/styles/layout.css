@@ -1,0 +1,80 @@
+body {
+    padding: 2em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container {
+    max-width: 1500px;
+    min-width: 1000px;
+    margin: 0 auto;
+}
+
+.hero-banner {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    padding-bottom: 10em;   
+
+}
+
+.logo-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-banner .logo {
+    max-width: 7em;
+}
+
+.hero-banner ul {
+    display: flex;
+    list-style: none;
+    gap: 3em;
+}
+
+
+.hero-banner ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero-banner h1,
+.hero-banner p {
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-banner h1 {
+    margin-top: 1.5em;
+    margin-bottom: 0.7em;
+}
+
+.hero-banner p {
+    max-width: 40%;
+    text-align: center;
+}
+
+.info {
+    padding: 5em 8em;
+}
+
+.info p {
+    margin-bottom: 2em;  
+}
+
+.more-info-container {
+    max-width: 40%;
+    padding: 4em;
+    margin: 0 auto;
+}
+
+.more-info-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}

@@ -1,0 +1,35 @@
+.local-guide {
+    padding: 5em 7em;
+    background-color: #E14747;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.local-guide h2,
+.local-guide p {
+    color: #FCF3E1;
+}
+
+.local-guide h2 {
+    margin-bottom: 1em;
+}
+
+.local-guide p {
+    text-align: center;
+    max-width: 80ch;
+    margin-bottom: 5em;
+}
+
+.local-guide .yellow {
+    background-color: #FAD87A;
+    text-decoration: none;
+    padding: 1em 2em;
+    border-radius: 2em;
+    color: black;
+    font-weight: 600;
+}
+
+.local-guide .yellow:hover {
+    background-color: #f7e2a9;
+}

@@ -1,0 +1,13 @@
+.hero-banner {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        url('/images/poster.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 30%;
+}
+
+.hero-banner ul li a {
+    text-decoration: none;
+    color: #fff;
+}

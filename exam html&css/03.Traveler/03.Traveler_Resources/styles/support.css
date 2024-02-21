@@ -1,0 +1,15 @@
+.support {
+    text-align: center;
+    background-color: #E14747;
+    color: white;
+    padding: 4em;
+}
+
+.support h3 {
+    margin-bottom: 2em;
+}
+
+.support p {
+    max-width: 30ch;
+    margin: 0 auto;
+}

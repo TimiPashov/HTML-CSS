@@ -1,0 +1,20 @@
+footer {
+    padding: 3em 6em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    background-color: #352B2A;
+}
+
+footer p {
+    max-width: 55ch;
+    color: #E8FFFF;
+}
+
+footer p:last-child {
+    color: #616068;
+}
+
+footer .logo {
+    max-width: 7em;
+}
